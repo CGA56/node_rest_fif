@@ -1,0 +1,58 @@
+{
+	"info": {
+		"_postman_id": "9ac11ed8-6e7b-464a-a17c-3db1a86f88a6",
+		"name": "pet-example",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3055/api/pet/cat",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-flow-country",
+						"value": "CL",
+						"disabled": true
+					},
+					{
+						"key": "x-flow-channel",
+						"value": "web",
+						"disabled": true
+					},
+					{
+						"key": "x-flow-commerce",
+						"value": "BANCO",
+						"disabled": true
+					},
+					{
+						"key": "x-token",
+						"value": "454e2f46-5479-4c3b-9c74-6c1f80c79a75"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"idRegister\": 123456,\n  \"name\": \"my cat\",\n  \"color\": \"black\",\n  \"born\": \"2014-11-01\",\n  \"tom\": true\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3055/api/pet/cat",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3055",
+					"path": [
+						"api",
+						"pet",
+						"cat"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

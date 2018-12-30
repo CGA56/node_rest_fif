@@ -1,0 +1,7 @@
+module.exports = {
+  msConfig: {
+    name: 'fif-school-simple-api',
+    port: 3055,
+    token: '454e2f46-5479-4c3b-9c74-6c1f80c79a75'
+  }
+};
