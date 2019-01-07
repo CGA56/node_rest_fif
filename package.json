@@ -55,7 +55,7 @@
     "mochawesome": "^2.3.0",
     "mockery": "2.0.0",
     "newman": "^4.1.0",
-    "nodemon": "1.11.0",
+    "nodemon": "^1.11.0",
     "npm-check": "5.4.4",
     "npm-check-updates": "2.11.3",
     "npm-run-all": "^4.0.2",
